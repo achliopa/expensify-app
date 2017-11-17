@@ -37,11 +37,9 @@ export const ExpensesSummary = (props) => {
 	const formattedExpensesTotal = `${numeral(props.expensesTotal/100).format('0,0.00')}`;
 	return (
 		<div>
-			{props.expenseCount > 0 && 
-				<h3> 
-					Viewing {props.expenseCount} {expenseWord} totalling {formattedExpensesTotal}&euro;
-				</h3>
-			}
+			<h2> 
+				Viewing {props.expenseCount} {expenseWord} totalling {formattedExpensesTotal}&euro;
+			</h2>
 		</div>
 	);
 };
