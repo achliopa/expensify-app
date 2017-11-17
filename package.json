@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack",
-    "build:prod": "webpack -p",
+    "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "dev-server-c9": "webpack-dev-server -d --watch --host $IP --port $PORT --public $C9_HOSTNAME",
     "test": "jest --config=jest.config.json"
