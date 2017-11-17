@@ -11,6 +11,6 @@ app.get('*', (req,res) => {
     res.sendFile(path.join(publicPath, 'index.html')); 
 });
 
-app.listen(port, ip, ()=>{
+app.listen(port, ()=>{
    console.log('server is running...'); 
 });
