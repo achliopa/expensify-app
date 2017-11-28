@@ -19,7 +19,7 @@ import { startLogin } from '../actions/auth';
 
 export const LoginPage = ({startLogin}) => (
 	<div className="box-layout">
-		<div className="box-layout__box">
+		<div className="box_layout__box">
 			<h1 className="box_layout__title">Agileng Expensify</h1>
 			<p>It's time to put your expenses under control.</p>
 			<button className="button" onClick={startLogin}>Login with Google</button>
